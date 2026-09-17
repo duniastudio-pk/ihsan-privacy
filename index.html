@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ihsan: Prayer Time & Quran</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1B4D3E;
+            --primary-accent: #059669;
+            --text-dark: #0F172A;
+            --text-muted: #475569;
+            --bg-page: #F8FAFC;
+            --bg-card: #FFFFFF;
+            --border-color: #E2E8F0;
+            --tag-bg: #ECFDF5;
+            --tag-text: #065F46;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-dark);
+            line-height: 1.65;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1B4D3E 0%, #13382D 60%, #0B221B 100%);
+            color: #FFFFFF;
+            padding: 48px 40px;
+            text-align: left;
+        }
+
+        .header .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            color: #A7F3D0;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 14px;
+            border-radius: 20px;
+            margin-bottom: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        .header h1 {
+            font-size: 30px;
+            font-weight: 800;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .header p {
+            color: #D1FAE5;
+            font-size: 15px;
+            max-width: 620px;
+        }
+
+        .meta-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 18px 40px;
+            background: #F1F5F9;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .meta-item strong {
+            color: var(--text-dark);
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 36px;
+            margin-bottom: 14px;
+            border-bottom: 2px solid #F1F5F9;
+            padding-bottom: 8px;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        p, ul, ol {
+            margin-bottom: 16px;
+            font-size: 15px;
+            color: var(--text-muted);
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: #ECFDF5;
+            border-left: 4px solid #059669;
+            padding: 16px 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 24px 0;
+            font-size: 14px;
+            color: #065F46;
+        }
+
+        .highlight-box strong {
+            display: block;
+            margin-bottom: 4px;
+            font-size: 15px;
+            color: #047857;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            text-align: left;
+        }
+
+        th {
+            background: #F8FAFC;
+            color: var(--text-dark);
+            font-weight: 600;
+            padding: 12px 16px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-muted);
+            vertical-align: top;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .perm-tag {
+            display: inline-block;
+            background: #F1F5F9;
+            color: #334155;
+            font-family: monospace;
+            font-size: 12px;
+            padding: 2px 6px;
+            border-radius: 6px;
+            white-space: nowrap;
+        }
+
+        .footer {
+            padding: 30px 40px;
+            background: #F8FAFC;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .footer a {
+            color: var(--primary-accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 12px;
+            }
+            .header {
+                padding: 32px 20px;
+            }
+            .meta-bar {
+                padding: 14px 20px;
+            }
+            .content {
+                padding: 24px 20px;
+            }
+            .footer {
+                padding: 24px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <span class="badge">Official Privacy Disclosure</span>
+        <h1>Privacy Policy for Ihsan</h1>
+        <p>Transparency, user privacy, and responsible handling of local device data for Ihsan: Prayer Time &amp; Quran.</p>
+    </div>
+
+    <div class="meta-bar">
+        <div class="meta-item"><strong>Developer:</strong> DUNIA Studio</div>
+        <div class="meta-item"><strong>Application:</strong> Ihsan: Prayer Time &amp; Quran</div>
+        <div class="meta-item"><strong>Effective Date:</strong> September 12, 2026</div>
+        <div class="meta-item"><strong>Last Updated:</strong> September 17, 2026</div>
+    </div>
+
+    <div class="content">
+
+        <div class="highlight-box">
+            <strong>🕊️ Privacy-First Commitment</strong>
+            Ihsan was created by DUNIA Studio with reverence for user privacy. We do NOT operate cloud user databases that collect, track, profile, or sell your personal data. Location calculations and habit progress are calculated ephemerally and stored strictly on your local device.
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>
+            This Privacy Policy governs your use of the mobile application <strong>Ihsan: Prayer Time &amp; Quran</strong> (&quot;Application&quot;), provided by <strong>DUNIA Studio</strong> (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;).
+            This document informs you of our policies regarding the collection, processing, and disclosure of data when you use our Application.
+        </p>
+        <p>
+            By installing and using Ihsan, you consent to the practices described in this policy.
+        </p>
+
+        <h2>2. Location Data Usage &amp; Disclosures (Google Play Compliant)</h2>
+        <p>
+            In strict adherence to Google Play's Location Permissions Policy, we disclose the exact manner in which location data is handled:
+        </p>
+        <ul>
+            <li><strong>Purpose:</strong> Ihsan accesses your device's geographical coordinates (latitude, longitude, and elevation) solely to calculate astronomical prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha), sunrise/sunset times, and the accurate direction of the Qibla (Kaaba compass).</li>
+            <li><strong>On-Device Ephemeral Processing:</strong> All astronomical equations and compass headings are calculated strictly on-device. Your coordinates are processed ephemerally in memory.</li>
+            <li><strong>No Tracking or Cloud Uploads:</strong> Ihsan <strong>never</strong> logs, tracks, transmits, or stores your location history on remote servers. Your location is never shared with third parties or advertisers.</li>
+            <li><strong>Manual Selection Alternative:</strong> Granting GPS permission is completely optional. Users may select their city manually from an offline database without granting device location permissions.</li>
+        </ul>
+
+        <h2>3. Device Permissions &amp; Technical Justifications</h2>
+        <p>
+            The table below provides clear technical justification for every permission utilized by Ihsan:
+        </p>
+
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Classification</th>
+                        <th>Technical Usage &amp; Justification</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="perm-tag">ACCESS_FINE_LOCATION</span><br/><span class="perm-tag">ACCESS_COARSE_LOCATION</span></td>
+                        <td>Location</td>
+                        <td>Used strictly on-device to compute high-precision prayer times and Qibla compass bearing. Never uploaded or shared.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="perm-tag">POST_NOTIFICATIONS</span></td>
+                        <td>Notifications</td>
+                        <td>Used on Android 13+ to deliver timely Athan (Azan) calls to prayer and daily Quran reading reminders.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="perm-tag">SCHEDULE_EXACT_ALARM</span><br/><span class="perm-tag">USE_EXACT_ALARM</span></td>
+                        <td>Alarms &amp; Reminders</td>
+                        <td>Ensures that prayer time notifications and Athan audio alerts trigger at the exact minute required by Islamic prayer calculations, even when the device enters low-power Doze mode.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="perm-tag">FOREGROUND_SERVICE</span><br/><span class="perm-tag">FOREGROUND_SERVICE_MEDIA_PLAYBACK</span></td>
+                        <td>Foreground Service</td>
+                        <td>Allows continuous, uninterrupted playback of Holy Quran recitations and Athan alerts when the screen is turned off or the app is minimized. Displays playback controls in the notification shade.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="perm-tag">INTERNET</span><br/><span class="perm-tag">ACCESS_NETWORK_STATE</span></td>
+                        <td>Network</td>
+                        <td>Required strictly for streaming/downloading high-quality Quran recitation audio files from verified public CDNs, and to load AdMob banner/interstitial ads.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="perm-tag">VIBRATE</span><br/><span class="perm-tag">WAKE_LOCK</span></td>
+                        <td>System Utility</td>
+                        <td>Used to provide haptic feedback during digital Tasbih counting and to wake the device display briefly for active prayer alarms.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2>4. On-Device Data Storage</h2>
+        <p>
+            All user preferences and personal religious tracking data are kept strictly private on your device:
+        </p>
+        <ul>
+            <li><strong>Quran Progress &amp; Bookmarks:</strong> Your reading history, last read Ayah, and custom surah bookmarks are stored exclusively in your local SQLite/Room database.</li>
+            <li><strong>Tasbih &amp; Dhikr Counters:</strong> Your personalized digital counter history, daily goals, and habit streaks remain on your device.</li>
+            <li><strong>Audio Cache:</strong> Downloaded recitations are saved in your app's private cache for offline listening and can be deleted at any time through the app settings.</li>
+        </ul>
+
+        <h2>5. Third-Party Advertising (Google AdMob)</h2>
+        <p>
+            Ihsan includes non-intrusive advertisements served by <strong>Google AdMob</strong> to help support continuous maintenance and development.
+        </p>
+        <p>
+            Google AdMob is an advertising service provided by Google LLC. AdMob may automatically collect pseudonymous advertising identifiers (e.g., Android Advertising ID) and diagnostic telemetry to serve compliant ads according to Google Play Policies.
+        </p>
+        <ul>
+            <li>Learn more about Google's data practices: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy &amp; Terms</a>.</li>
+            <li>You can manage or opt out of personalized ads at any time via your device's <strong>Settings &gt; Google &gt; Ads</strong>.</li>
+        </ul>
+
+        <h2>6. Data Retention &amp; User Deletion Rights</h2>
+        <ul>
+            <li><strong>Zero Server Data:</strong> Because DUNIA Studio does not transmit or store your personal information on cloud servers, there is no remote user data to retain or delete.</li>
+            <li><strong>Full User Control:</strong> You can reset all counters, clear audio downloads, or erase reading history directly from the application settings.</li>
+            <li><strong>App Removal:</strong> Completely uninstalling the Application instantly erases all local database records, preferences, and cached audio from your device.</li>
+        </ul>
+
+        <h2>7. Children's Privacy (COPPA Compliance)</h2>
+        <p>
+            Ihsan is suitable for general audiences of all ages, including families. The Application does not knowingly solicit or collect personally identifiable information from children under the age of 13.
+        </p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>
+            We may occasionally update this Privacy Policy to ensure continued compliance with relevant laws and Google Play Developer Policies. Any revisions will be published on this page with an updated &quot;Last Updated&quot; timestamp.
+        </p>
+
+        <h2>9. Contact Information</h2>
+        <p>
+            If you have questions, suggestions, or concerns regarding your privacy or this policy, please reach out to us:
+        </p>
+        <p>
+            <strong>DUNIA Studio</strong><br/>
+            Email: <a href="mailto:duniastudio.pk@gmail.com">duniastudio.pk@gmail.com</a><br/>
+        </p>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 DUNIA Studio. All rights reserved.</p>
+        <p style="margin-top: 6px;">Ihsan: Prayer Time &amp; Quran &bull; Built with reverence and privacy.</p>
+    </div>
+</div>
+
+</body>
+</html>
